@@ -23,9 +23,9 @@ a:active {
 .item {
   height: 40px;
   text-align: center;
-  font-size: 22px;;
+  font-size: 25px;;
   line-height: 0;
-  background: #00cfcf;
+  background: #ffffff;
   color: #695753;
   margin-top: 5px;
 }
@@ -39,7 +39,7 @@ a:active {
   padding: 1em;
   background: #2833bb;
   border-right: 1px solid #b19891;
-  color: #695753;
+  color: #ffffff;
 }
 
 .one a:hover {
