@@ -1,125 +1,32 @@
 body {
-    background-color: #ffffff;
-    margin: auto;
-}
-
-a {
-  color: #e86240;
-}
-
-a:visited {
-  color: #e86240;
-}
-
-a:active {
-  color: #eb6a91;
-}
-
-.start {
-  background-color: white;
-  margin-top: 20px;
-}
-
-.item {
-  height: 40px;
-  text-align: center;
-  font-size: 25px;;
-  line-height: 0;
-  background: #ffffff;
-  color: #695753;
-  margin-top: 5px;
-}
-
-.one {
-  text-align: center;
-  margin-left: -1cm;
-}
-
-.one a {
-  padding: 1em;
-  background: #2833bb;
-  border-right: 1px solid #b19891;
-  color: #ffffff;
-}
-
-.one a:hover {
-  background: #279c87;
-}
-
-.one li {
-  display: inline;
-}
-
-.struct {
-  max-width:1000px;
-  margin: 0 auto;
-  padding:10px;
-}
-
-#shapka {
-  background-color: #2833bb;
-  height: 200px;
-  color: #a4e6f2;
-  width: 100%;
-}
-
-#logo {
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: black;
+  background-color: #B0C4DE}
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   position: absolute;
-  width: 120px;
-  height: 120px;
-  margin-top: 50px;
-}
-
-#txt {
-  color: #ffffff;
-  position:absolute;
-  margin-left: 130px;
-  margin-top: 75px;
-  font-size: 30px;
-}
-
-
-
-table {
-    border: 1px solid grey;
-    text-align: center;
-    padding: 5px;
-    width: 400px;
-  }
-
-  th {
-    border: 1px solid grey;
-  }
-
-  td {
-    border: 1px solid grey;
-  }
-
-  .ta {
-    background-color: #cfba00;
-  }
-
-input {
-
-  margin-bottom: 10px;
-}
-
-
-.ifooter {
-  margin-top: 50px;
-  background: #2833bb;
-  height: 80px;
-  color: #ffffff;
-}
-
-.tab {
-  background-color: #e86240;
-}
-
-#head3{
-  margin-top: 55px;
-}
-
-#forum {
-  text-align: center;
-}
+  top: 2em;
+  left: 1em;
+  width: 9em }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif }
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black }
+ul.navbar a {
+  text-decoration: none }
+a:link {
+  color: green}
+a:visited {
+  color: black }
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
